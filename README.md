@@ -1,3 +1,5 @@
+# Install and Run
+
 1. install  Anaconda 5.0.1 (Python 3.6)
 1. install [Redis](https://github.com/MicrosoftArchive/redis)
 1. inside anaconda promp (with admin priv):
@@ -12,3 +14,12 @@
     1. Change `WINDOW_NAME` to `BombTag`
     1. Change `APP_ID` to `791930`
     1. `serpent generate game_agent`
+        > BombTag
+    1. `serpent launch BombTag`
+    1. `serpent play BombTag SerpentBombTagGameAgent`
+
+
+
+# GUI
+1. `serpent setup gui`
+1. `serpent visual_debugger`

@@ -14,4 +14,11 @@ class SerpentBombTagGameAgent(GameAgent):
         pass
 
     def handle_play(self, game_frame):
-        pass
+        print("Hello World!")
+
+        for i, game_frame in enumerate(self.game_frame_buffer.frames):
+            self.visual_debugger.store_image_data(
+                game_frame.frame,
+                game_frame.frame.shape,
+                str(i)
+            )
