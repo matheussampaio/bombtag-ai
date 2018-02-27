@@ -1,4 +1,6 @@
 SerpentBombTagAgentGameAgentPlugin:
   frame_handler: PLAY
+SerpentBombTagGameAgentPlugin:
+  frame_handler: PLAY
 SerpentBombTagGamePlugin:
   fps: 2

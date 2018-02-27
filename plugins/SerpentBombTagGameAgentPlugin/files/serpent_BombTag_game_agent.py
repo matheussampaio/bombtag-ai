@@ -1,7 +1,7 @@
 from serpent.game_agent import GameAgent
 
 
-class SerpentBombTagAgentGameAgent(GameAgent):
+class SerpentBombTagGameAgent(GameAgent):
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)

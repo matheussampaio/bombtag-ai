@@ -1,8 +1,8 @@
 import offshoot
 
 
-class SerpentBombTagAgentGameAgentPlugin(offshoot.Plugin):
-    name = "SerpentBombTagAgentGameAgentPlugin"
+class SerpentBombTagGameAgentPlugin(offshoot.Plugin):
+    name = "SerpentBombTagGameAgentPlugin"
     version = "0.1.0"
 
     plugins = []
@@ -10,7 +10,7 @@ class SerpentBombTagAgentGameAgentPlugin(offshoot.Plugin):
     libraries = []
 
     files = [
-        {"path": "serpent_BombTagAgent_game_agent.py", "pluggable": "GameAgent"}
+        {"path": "serpent_BombTag_game_agent.py", "pluggable": "GameAgent"}
     ]
 
     config = {
@@ -27,4 +27,4 @@ class SerpentBombTagAgentGameAgentPlugin(offshoot.Plugin):
 
 
 if __name__ == "__main__":
-    offshoot.executable_hook(SerpentBombTagAgentGameAgentPlugin)
+    offshoot.executable_hook(SerpentBombTagGameAgentPlugin)
